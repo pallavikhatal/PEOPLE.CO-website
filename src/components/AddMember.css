@@ -1,0 +1,219 @@
+.update-member-container {
+  max-width: 600px;
+  margin: 40px auto;
+  margin-top: 5rem;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.update-member-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.update-member-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #6b21a8;
+}
+
+label {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  padding: 12px;
+  background-color: #6b21a8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Avatar Section */
+.avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.avatar-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.avatar-upload-btn,
+.avatar-remove-btn {
+  padding: 6px 10px;
+  background-color: #6b21a8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.avatar-upload-btn:hover {
+  background-color: #5a6268;
+}
+
+.avatar-remove-btn:hover {
+  background-color: #dc3545;
+}
+
+/* Team Tags Section */
+.team-tags-section {
+  margin-bottom: 24px;
+}
+
+.team-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag {
+  background-color: #ede9fe;
+  color: #6b21a8;
+  padding: 4px 4px;
+  border-radius: 9999px;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #6b21a8;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+/* .add-member-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 4rem;
+    background-color: #f9f9ff;
+    min-height: 100vh;
+  }
+  
+  .add-member-form {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .add-member-form h2 {
+    text-align: center;
+    color: #7f56d9;
+    margin-bottom: 10px;
+  }
+  
+  .add-member-form label {
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .add-member-form input[type="text"],
+  .add-member-form input[type="email"],
+  .add-member-form select {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .add-member-form input:focus,
+  .add-member-form select:focus {
+    border-color: #7f56d9;
+  }
+  
+  .add-member-form button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #7f56d9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-member-form button:hover {
+    background-color: #6c45c4;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    background: #f1f1f6;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .checkbox-item input {
+    accent-color: #7f56d9;
+  }
+   */

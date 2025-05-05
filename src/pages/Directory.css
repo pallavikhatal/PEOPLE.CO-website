@@ -1,0 +1,219 @@
+.page-content {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+.team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .team-header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .team-header-right {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .user-count {
+    margin-left: 0.5rem;
+    background-color: #f4ebff;
+    color: #7f56d9;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid #a38dd3;
+    border-radius: 20px;
+    font-size: 0.80rem;
+    font-weight: 600;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+  }
+
+  .search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 0.9rem;
+  }
+
+  .filter-btn {
+    background: transparent;
+    border: none;
+    color: gray;  
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .add-btn {
+    background-color: #7f56d9;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .team-table { 
+    background-color: #f9fafb;
+    min-height: 100vh;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #f3f4f6;
+  }
+
+  table td, table th {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  thead th {
+    background-color: #f3f4f6;
+    color: #6b7280;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  thead th {
+    padding: 1rem;
+    font-weight: 600;
+  }
+  
+  
+  td {
+    padding: 1rem;
+    font-size: 15px;
+    
+  }
+  
+    .name-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .name-cell img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  } 
+
+  .name-cell .u-name {
+    font-weight: 600;
+    color: #3b3d41;
+    font-size: 14px;
+  }
+
+  .name-cell .u-username {
+    color: #6b7280;
+    font-size: 12px;
+  }
+ 
+  .status-badge {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.25rem 0.25rem;
+    font-size: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+
+  .status-badge img {
+    height: 8px;
+    width: 8px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #f3f4f6;
+    color: #6366f1;
+    padding: 0.20rem 0.4rem;
+    border: 1px solid #8a8bf3;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-right: 0.25rem;
+  }
+ 
+  .action-icon {
+    font-size: 17px;
+    cursor: pointer;
+    color: #4a4f58;
+    transition: color 0.2s;
+  }
+  
+  
+
+  .details-card-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .details-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+  }
+  
+  .details-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #444;
+  }
+  

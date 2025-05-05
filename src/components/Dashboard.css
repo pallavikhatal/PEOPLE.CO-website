@@ -1,0 +1,16 @@
+ 
+  .dashboard-container {
+    display: flex;
+    margin-top: 70px; 
+    min-height: calc(100vh - 70px); 
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    /* padding: 20px; */
+    /* background-color: #f5f6fa; */
+    margin-left: 220px;
+    overflow-y: auto;
+    height: calc(100vh - 70px); 
+  }
+  

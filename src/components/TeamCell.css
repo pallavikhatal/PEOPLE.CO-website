@@ -1,0 +1,24 @@
+.team-cell {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  
+  .team-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+    background-color: #eee;
+    border: 1px solid transparent;
+    white-space: nowrap;
+  }
+  
+  .team-badge.extra {
+    background-color: #f0f0f0;
+    color: #555;
+    border: 1px solid #ddd;
+  }
+  

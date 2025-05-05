@@ -1,0 +1,29 @@
+nav {
+    position: fixed; /* Make navbar fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff; /* Set background so content doesn't show through */
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar-right .profile {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+}
