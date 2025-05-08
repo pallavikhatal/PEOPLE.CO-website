@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import './UpdateMember.css';
+import './Update.css';
 
 const Update = () => {
     const [avatar, setAvatar] = useState('');
@@ -80,6 +80,8 @@ const Update = () => {
             <form onSubmit={updateUser} className="edit-profile-form">
                 <h2>Edit Profile</h2>
 
+                <div className="inner-form">
+
                 <div className="profile-photo-section">
                     {avatar ? <img src={avatar} alt="Profile" className="profile-photo" /> : <div className="placeholder-photo">No Photo</div>}
                     <div className="photo-buttons">
@@ -147,7 +149,7 @@ const Update = () => {
                         ))}
                     </div>
 
-                    <select onChange={handleAddTeam} defaultValue="">
+                    <select onChange={handleAddTeam} defaultValue="" className='select-team'>
                         <option value="" disabled>Select team to add</option>
                         {["Design", "Marketing", "Product", "Engineering", "Tech", "Sales", "Data"]
                             .filter(t => !team.includes(t))
@@ -156,6 +158,7 @@ const Update = () => {
                             ))
                         }
                     </select>
+                </div>
                 </div>
 
 
@@ -323,4 +326,3 @@ export default Update;
 // };
 
 // export default Update;
-

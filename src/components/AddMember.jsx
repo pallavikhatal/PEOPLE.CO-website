@@ -146,7 +146,7 @@ const AddMember = () => {
                             </span>
                         ))}
                     </div>
-                    <select onChange={handleAddTeam} defaultValue="">
+                    <select onChange={handleAddTeam} defaultValue="" className='select-team'>
                         <option value="" disabled>Select team to add</option>
                         {["Design", "Marketing", "Product", "Engineering", "Tech", "Sales", "Data"]
                             .filter(t => !team.includes(t))
@@ -181,7 +181,12 @@ const AddMember = () => {
 </label> */}
 
 
-                <button type="submit">Add Member</button>
+                {/* <button type="submit">Add Member</button> */}
+
+                <div className="form-actions">
+                    <button type="button" onClick={() => navigate('/directory')}>Cancel</button>
+                    <button type="submit">Add</button>
+                </div>
             </form>
         </div>
     );

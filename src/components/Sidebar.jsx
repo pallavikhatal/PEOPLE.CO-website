@@ -12,13 +12,13 @@ const Sidebar = () => {
         <ul>
             <li>
                 <Link to={'/overview'} className={`sidebar-link ${location.pathname === '/overview' ? "active-link" : "inherit"}`}>
-                    <HiMiniSquares2X2 color='#6941C6' /> Overview
+                    <HiMiniSquares2X2 className='sidebar-icon' /> Overview
                 </Link>
             </li>
 
             <li>
                 <Link to={'/directory'} className={`sidebar-link ${location.pathname === '/directory' ? "active-link" : "inherit"}`}>
-                    <HiMiniSquares2X2 color='#6941C6' /> People Directory
+                    <HiMiniSquares2X2 className='sidebar-icon' /> People Directory
                 </Link>
             </li>
         </ul>
